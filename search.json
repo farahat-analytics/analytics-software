@@ -1,0 +1,89 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R and Python for Business Analytics Students: A Getting-Started Guide",
+    "section": "",
+    "text": "Preface\nThis is a brief guide to getting started with programming in R and Python for business analytics students. It includes a succinct description of essential topics along with a curated list of pointers to more in-depth reference resources.\n\n\n\n\n\n\nWarning\n\n\n\nWork in progress.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "R_installation.html",
+    "href": "R_installation.html",
+    "title": "1  Installation",
+    "section": "",
+    "text": "1.1 Installing the R programming language\nYou can install the R programming language on your computer as follows:",
+    "crumbs": [
+      "R",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Installation</span>"
+    ]
+  },
+  {
+    "objectID": "R_installation.html#installing-the-r-programming-language",
+    "href": "R_installation.html#installing-the-r-programming-language",
+    "title": "1  Installation",
+    "section": "",
+    "text": "Microsoft Windows\nVisit https://cran.r-project.org/bin/windows/base/. Skim through the information on that page then, if your system is compatible, click on the link to download R-4.2.1 for Windows (see screenshot below).\n\nWait until the file fully downloads. Open the downloaded file and follow the instructions to install R on your computer. Use the default options to the extent possible.\n\n\nMacOS\nVisit https://cran.r-project.org/bin/macosx/ and click the relevant .pkg link to download the correct version of R for your computer. If you are on MacOS 10.13 and higher with Intel chip, you should install R-4.2.1.pkg. If you are on Big Sur with an ARM build, you should install R-4.2.1-arm64.pkg. To check the version of your Mac, hit the apple button on the top-left corner of the screen and go to “About This Mac”.\nMacOS 10.13 (High Sierra) or higher:\n\nMacOS 11 (Big Sur) or higher, Apple silicon arm64 build:\n\nOpen the downloaded file and follow the instructions to install R on your computer. Use the default options to the extent possible.",
+    "crumbs": [
+      "R",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Installation</span>"
+    ]
+  },
+  {
+    "objectID": "R_installation.html#installing-rstudio",
+    "href": "R_installation.html#installing-rstudio",
+    "title": "1  Installation",
+    "section": "1.2 Installing RStudio",
+    "text": "1.2 Installing RStudio\nYou can install RStudio on your computer by following the steps corresponding to your operating system as follows:\n\nMicrosoft Windows\nVisit https://www.rstudio.com/products/rstudio/download/. Skim through the information on that page then scroll down (further down!) and click on the link to download RStudio Desktop (see screenshot below):\n\nRun the installer to install RStudio on your computer. Use the default options to the extent possible.\n\n\nMacOS\nVisit https://www.rstudio.com/products/rstudio/download/. Scroll down (further down!) and click on the link corresponding to your macOS operating systems (see screenshot below):\n\nOpen the downloaded .dmg file, which should open a folder with icons labeled Applications and RStudio. Drag the RStudio icon into the Applications folder. If you double click Applications, you should now see that RStudio is installed as an application on your computer.",
+    "crumbs": [
+      "R",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Installation</span>"
+    ]
+  },
+  {
+    "objectID": "R_installation.html#installing-tidyverse",
+    "href": "R_installation.html#installing-tidyverse",
+    "title": "1  Installation",
+    "section": "1.3 Installing tidyverse",
+    "text": "1.3 Installing tidyverse\nOpen RStudio on your computer (from the start menu in Windows or from the spotlight search utility labeled with the magnifying glass in the top-right corner of the screen in Mac). On a Mac, you may get a warning asking you if you want to open RStudio for the first time, since it was downloaded from the internet; in this case click Open.\nInstall the tidyverse suite of R packages by running the following command. You run a command by typing it in the console section of RStudio, next to the “&gt;” prompt, and hitting Enter. (Later we’ll see other ways of entering and running R commands). You must be connected to the internet for this to work!\ninstall.packages(\"tidyverse\")\n\n\n\n\n\n\nNote\n\n\n\nIn R, a package is a bundle of R functions (code), documentation on these functions, and (commonly) built-in demo datasets. Packages extend the base R functionality, allowing users to perform certain types of analysis easily and efficiently.",
+    "crumbs": [
+      "R",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Installation</span>"
+    ]
+  },
+  {
+    "objectID": "R_installation.html#testing-the-installation",
+    "href": "R_installation.html#testing-the-installation",
+    "title": "1  Installation",
+    "section": "1.4 Testing the installation",
+    "text": "1.4 Testing the installation\nTo test your installation type in the following command in the Console section of RStudio and hit enter:\ndata(package = \"ggplot2\")\nIf the installation was successful you will get the list displayed below.\n\nNote:\n\n\n\n\n\n\nNote\n\n\n\nggplot2 is a data visualization R package. It is part of the tidyverse suite of packages. The above command produces a list of all the demo datasets included in the ggplot2 package.",
+    "crumbs": [
+      "R",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Installation</span>"
+    ]
+  },
+  {
+    "objectID": "P_installation.html",
+    "href": "P_installation.html",
+    "title": "2  Installation",
+    "section": "",
+    "text": "2.1 Option 1: Google Colab",
+    "crumbs": [
+      "Python",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Installation</span>"
+    ]
+  },
+  {
+    "objectID": "P_installation.html#option-2-anaconda-individual-edition",
+    "href": "P_installation.html#option-2-anaconda-individual-edition",
+    "title": "2  Installation",
+    "section": "2.2 Option 2: Anaconda Individual Edition",
+    "text": "2.2 Option 2: Anaconda Individual Edition\n\n2.2.1 Installing Anaconda\nA more detailed/nuanced Windows installation guide is available here: https://docs.anaconda.com/anaconda/install/. The following steps, however, should be sufficient for most students.\n\n\n\n\n\n\nTip\n\n\n\nYou need an active internet connection throughout the set up process. It is also recommended that you close all open programs on your computer before starting the installation.\n\n\nFollow the instructions corresponding to your operating system (MacOS users need to scroll down).\n\nMicrosoft Windows\n\nVisit the Anaconda website and click the Download button to download the Windows installer (see screenshot below). The download will start immediately. Wait until the installer (.exe) file downloads completely.\n\n\n\n\n\n\n\nNote\n\n\n\nWhile waiting for the installer to download, you may encounter a pop-up window asking you to create an Anaconda Nucleus or Cloud account. This is optional and can be skipped by closing the pop-up window.\n\n\n\n\n\n\n\n\nTip\n\n\n\nIf you visit the Anaconda website and find your browser unable to display the entire contents then decrease the browser’s zoom setting.\n\n\nStart the installation by (double) clicking the installer file. Complete the installation process after reviewing and agreeing to the license terms. We recommend using the default options throughout. If asked, you can skip the PyCharm installation.\nRestart Windows to ensure the installation is complete.\n\n\n\nMacOS\n\n\n\n\n\n\nNote\n\n\n\nSince version 10.8, macOS comes with Python 2.7 pre-installed. However, we need a Python 3 release. Python 3 is not backward-compatible with Python 2.\n\n\n\nVisit the Anaconda website and click the Apple icon followed by the Graphical Installer link corresponding to your macOS build. If you have an ARM build, using the M1 chip, select the second Graphical Installer (see screenshot below). The download will start immediately. Wait until the installer (.pkg) file downloads completely.\n\nMeanwhile you may encounter a pop-up window asking you to create an Anaconda Nucleus or Cloud account. This is optional and can be skipped by closing the pop-up window.\nDouble-click the downloaded file and click continue to start the installation.\nAnswer the prompts on the Introduction, Read Me, and License screens.\nClick the Install button to install Anaconda in your ~/opt directory. We recommend using the default options throughout. If asked, you can skip the PyCharm installation.  \n\n\n\n\n2.2.2 Testing the installation\n\nMicrosoft Windows\nAnaconda Navigator is a graphical user interface that is automatically installed with Anaconda.\n\nLaunch the program by clicking Start and selecting Anaconda Navigator from the menu or by searching for it in the search box. (You may need to be patient as it loads the first time). Navigator will open if your installation was successful. It should look something like this:\n\n\n\n\n\n\n\nNote\n\n\n\nOn some computer displays you may find that Navigator’s program window exceeds the screen size. Try resizing the window or, for a more permanent solution, go to File -&gt; Preferences in Navigator’s menu, uncheck ‘Enable high DPI scaling’, click “Apply”, and restart the program.\n\n\n\n\n\n\n\n\nNote\n\n\n\nYou may be asked to update Navigator to a more recent release the first time you launch it! This is optional and can be skipped.\n\n\nLaunch Jupyter Notebook from within Anaconda Navigator. Create a new notebook from the dropdown menu at the upper right hand corner.\n\nAnd type the following code in a cell:\nprint(\"Hello world of business analytics!\")\nTo run, press Ctrl + Enter. If no error messages are shown and the message is correctly, then you’ve successfully installed Python and Anaconda!\n\n\n\nMacOS\nAnaconda Navigator is a graphical user interface that is automatically installed with Anaconda.\n\nLaunch the program by clicking Launchpad and select Anaconda Navigator. Alternatively, use Cmd + Space to open Spotlight Search and type “Navigator” to open the program. (You may need to be patient as it loads the first time). Navigator will open if your installation was successful. It should look something like this:\n\n\n\n\n\n\n\nNote\n\n\n\nOn some computer displays you may find that Navigator’s program window exceeds the screen size. Try resizing the window or, for a more permanent solution, go to File -&gt; Preferences in Navigator’s menu, uncheck ‘Enable high DPI scaling’, click “Apply”, and restart the program.\n\n\n\n\n\n\n\n\nNote\n\n\n\nYou may be asked to update Navigator to a more recent release the first time you launch it! This is optional and can be skipped.\n\n\nLaunch Jupyter Notebook from within Anaconda Navigator. Create a new notebook from the dropdown menu at the upper right hand corner.\n\nAnd type the following code in a cell:\nprint(\"Hello world of business analytics!\")\nTo run, press CMD + Enter. If no error messages are shown and the message is correctly, then you’ve successfully installed Python and Anaconda!",
+    "crumbs": [
+      "Python",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Installation</span>"
+    ]
+  }
+]
