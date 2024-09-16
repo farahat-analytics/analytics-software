@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Amr Farahat">
-<meta name="dcterms.date" content="2024-09-16">
 
-<title>R/Python/Solvers for Business Analytics Students: A Getting-Started Guide</title>
+<title>3&nbsp; Installation – R/Python/Solvers for Business Analytics Students: A Getting-Started Guide</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./R_installation.html" rel="next">
+<link href="./references.html" rel="next">
+<link href="./P_installation.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -82,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./installing_gurobi.html">Gurobi solver</a></li><li class="breadcrumb-item"><a href="./installing_gurobi.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Installation</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -109,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Preface</span></a>
   </div>
 </li>
@@ -158,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./installing_gurobi.html" class="sidebar-item-text sidebar-link">
+  <a href="./installing_gurobi.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Installation</span></span></a>
   </div>
 </li>
@@ -180,35 +179,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
+  <li><a href="#registering-for-an-academic-license" id="toc-registering-for-an-academic-license" class="nav-link active" data-scroll-target="#registering-for-an-academic-license"><span class="header-section-number">3.1</span> Registering for an academic license</a></li>
+  <li><a href="#downloading-the-software" id="toc-downloading-the-software" class="nav-link" data-scroll-target="#downloading-the-software"><span class="header-section-number">3.2</span> Downloading the software</a></li>
+  <li><a href="#obtaining-and-activating-the-academic-license" id="toc-obtaining-and-activating-the-academic-license" class="nav-link" data-scroll-target="#obtaining-and-activating-the-academic-license"><span class="header-section-number">3.3</span> Obtaining and activating the academic license</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./installing_gurobi.html">Gurobi solver</a></li><li class="breadcrumb-item"><a href="./installing_gurobi.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Installation</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">R/Python/Solvers for Business Analytics Students: A Getting-Started Guide</h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Installation</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Amr Farahat </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">September 16, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -218,22 +207,45 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1>
-<p>This is a brief guide to getting started with programming in R and Python for business analytics students. It includes a succinct description of essential topics along with a curated list of pointers to more in-depth reference resources.</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Work in progress.</p>
-</div>
-</div>
+<p>This page guides you through setting up your computer with the <strong>Gurobi Optimizer</strong>. You should already have installed Python already.</p>
+<p><strong>Gurobi</strong> is a state-of-the-art solver for optimization models. It can handle linear, integer, and convex quadratic models. Gurobi is one of the solvers supported by PuLP.</p>
+<p>P.S.1: Gurobi also has its own Python interface called <strong>guropipy</strong> (which is similaer to PuLP, but can mode some nonlinear optimization problems).</p>
+<p>P.S.2: <code>Cplex Optimizer &lt;https://www.ibm.com/analytics/cplex-optimizer&gt;</code>_ is another high-performance solver available for analytics professionals.</p>
+<p>A full-featured, no-size limit, free academic license of Gurobi Optimizer is available to academic users (students, faculty, and staff) for academic use. The license is free but requires that you complete the following registration step.</p>
+<section id="registering-for-an-academic-license" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="registering-for-an-academic-license"><span class="header-section-number">3.1</span> Registering for an academic license</h2>
+<ol type="1">
+<li>Visit https://pages.gurobi.com/registration</li>
+<li>Register as an Academic user. You will need to provide your name and your &lt;<span class="citation" data-cites="wustl.edu">(<a href="references.html#ref-wustl.edu" role="doc-biblioref"><strong>wustl.edu?</strong></a>)</span>&gt; email address among other information. Note: You do not need to provide your phone number (feel free to type 530 instead!).</li>
+<li>You will receive an email from Gurobi to confirm your email address and to set a password. The link in that email expires in a few minutes, so check your Inbox immediately. Also check your Spam or Junk folders if you do not receive the email within a few minutes.</li>
+</ol>
+</section>
+<section id="downloading-the-software" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="downloading-the-software"><span class="header-section-number">3.2</span> Downloading the software</h2>
+<ol type="1">
+<li>Log onto your account at www.gurobi.com.</li>
+<li>From the top of the webpage select “Downloads &amp; Licenses” and then select “Gurobi Optimizer – Download Software”.</li>
+<li>Review and accept the End User Agreement.</li>
+<li>Download the installer file of the latest Gurobi release corresponding to your operating system.</li>
+<li>Run the installer and restart your computer when prompted to complete the installation step.</li>
+</ol>
+</section>
+<section id="obtaining-and-activating-the-academic-license" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="obtaining-and-activating-the-academic-license"><span class="header-section-number">3.3</span> Obtaining and activating the academic license</h2>
+<p>Important note: Make sure you are connected to the <em>WUSTL network</em> in this step.</p>
+<ol type="1">
+<li><p>Log onto your account at www.gurobi.com.</p></li>
+<li><p>From the menu bar select “Academia” and then select “Academic Program and Licenses”.</p></li>
+<li><p>Scroll down the page to the section titled “Individual Academic Licenses” and click on the link “Free Academic License page” (see screenshot below)</p></li>
+<li><p>Review and agree to the license conditions</p></li>
+<li><p>The license is issued immediately and its details will be available on your browser page</p></li>
+<li><p>The final step is to install the license on your computer using the grbgetkey command. Copy the entire grbgetkey command provided and paste it into a shell (or Terminal) window.</p>
+<ul>
+<li>Windows users can access the shell window by typing “Run” in the Windows search box (alternatively, use the combination shortcut Windows+r). Paste the grbgetkey command into the command dialogue box that appears and press Enter.</li>
+<li>Mac users can access the Terminal window by clicking on the search spotlight icon and typing “Terminal”. Paste the grbgetkey command into the command line window that appears and press Enter.</li>
+</ul></li>
+<li><p>Your Gurobi license should now be ready for use.</p></li>
+</ol>
 
 
 </section>
@@ -661,10 +673,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./P_installation.html" class="pagination-link" aria-label="Installation">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Installation</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./R_installation.html" class="pagination-link" aria-label="Installation">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Installation</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./references.html" class="pagination-link" aria-label="References">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
